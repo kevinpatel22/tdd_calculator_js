@@ -2,7 +2,6 @@ const {add, subtract, sum} = require('./calculator.js');
 
 test('adds 0 and 0', () => {
   const result = add(0, 0);
-
   expect(result).toEqual(0);
 });
 
